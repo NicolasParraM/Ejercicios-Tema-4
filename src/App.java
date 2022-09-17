@@ -26,10 +26,11 @@ public class App {
  
          //Tercera Parte - Do While
  
-         do {
-             System.out.println( numeroWhile );
-             numeroWhile =+ 1;
-         } while ( numeroWhile > 3 );
+         int numeroDoWhile = 3;
+         do{
+             numeroDoWhile++;
+             System.out.println("numeroDoWhile vale: " + numeroDoWhile);
+         }while(numeroDoWhile < 3);
  
          //Cuarta Parte - Bucle For
  
